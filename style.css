@@ -1,0 +1,57 @@
+body{
+  background-image: url("images/Clipart1.gif");
+
+}
+.wrapper{
+  width: 170px;
+  margin: 0 auto;
+  background-color: blue;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.displayCalc{
+  width: 150px;
+background-color: blue;
+}
+.calculator{
+  background-color: blue;
+display: inline-block;
+height: 50px;
+width: 50px;
+margin-left: 5px;
+}
+.buttonText{
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+.displayCalc{
+  width: 150px;
+  color: blue;
+}
+h3{
+  font-family: 'Oswald', sans-serif;
+  margin: 5px;
+  padding-top: 5px;
+  width: 150px;
+  border: 1px solid black;
+  text-align: right;
+  background-color: white;
+}
+button{
+  margin: 4px 0  0 4px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+}
+.history{
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+li{
+  text-align: center;
+  list-style: none;
+}

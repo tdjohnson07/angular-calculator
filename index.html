@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="angularCalc">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Calculator</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="MainController">
+    <div class ="wrapper">
+      <div class="dispalyCalc">
+        <h3>{{display}}</h3>
+        <div class="calculator" ng-repeat="number in numberList">
+          <button ng-click="someFunction(number)"><span class="buttonText">{{number}}</span></button>
+        </div>
+        <button ng-click="clear()"><span class="buttonText">Clear</span></button>
+      </div>
+    </div>
+    <div class="history">
+      <h2>History</h2>
+      <ul>
+        <li ng-repeat="equation in equationList">{{equation}}</li>
+      </ul>
+    </div>
+  </body>
+</html>
