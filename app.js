@@ -10,6 +10,9 @@ angular.module("angularCalc").controller("MainController", function($scope){
     enteredProblem=[];
     $scope.display=" Enter Number";
   }
+  $scope.clearHistory= function (){
+    $scope.equationList=[];
+  }
   $scope.someFunction = function(clickedItem){
     displayString+=clickedItem.toString();
     $scope.display=displayString;
