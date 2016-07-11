@@ -19,8 +19,10 @@
       </div>
     </div>
     <div class="history">
-      <h2>History</h2>
-      <button ng-click="clearHistory()">Clear History</button>
+      <div class="historyHeader">
+        <h2>History</h2>
+        <button ng-click="clearHistory()">Clear History</button>
+    </div>
       <ul>
         <li ng-repeat="equation in equationList">{{equation}}</li>
       </ul>

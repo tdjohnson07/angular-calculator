@@ -21,7 +21,6 @@ angular.module("angularCalc").controller("MainController", function($scope){
     }
     else{
       enteredProblem.push(clickedItem);
-      console.log(enteredProblem);
     }
   }
   function turnArrayintoEquation(equationArray){
